@@ -17,8 +17,8 @@ const cormorant = Cormorant({
 
 export function generateMetadata(): Metadata {
   return {
-    title: { default: "Kintsugi - Onarim Sanati", template: "%s | Kintsugi" },
-    description: "Travma, yas ve kayip sureclerinde onarim odakli psikoterapi pratigi.",
+    title: { default: "Kintsugi - Onarım Sanatı", template: "%s | Kintsugi" },
+    description: "Travma, yas ve kayıp süreçlerinde onarım odaklı psikoterapi pratiği.",
     robots: { index: false, follow: false },
   };
 }

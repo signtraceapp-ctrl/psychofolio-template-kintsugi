@@ -1,9 +1,9 @@
 "use client";
 
 /**
- * KINTSUGI - Ana sayfa: kirik kasenin onarim yolculugu.
- * Pinned 3D sahne: parcalar birlesir, altin damarlar dolar.
- * Ardindan: onarim ritueli (etkilesimli), felsefe, hizmet ozeti, CTA.
+ * KINTSUGI - Ana sayfa: kırık kasenin onarım yolculuğu.
+ * Pinned 3D sahne: parçalar birleşir, altın damarlar dolar.
+ * Ardından: onarım ritüeli (etkileşimli), felsefe, hizmet özeti, CTA.
  */
 
 import Link from "next/link";
@@ -21,28 +21,28 @@ if (typeof window !== "undefined") {
 
 const journeyPhases = [
   {
-    title: "Kirilma bir",
-    accent: "son degildir",
-    body: "Her hikaye bir butunle baslar; bazen hayat onu parcalara ayirir.",
+    title: "Kırılma bir",
+    accent: "son değildir",
+    body: "Her hikâye bir bütünle başlar; bazen hayat onu parçalara ayırır.",
   },
   {
-    title: "Hicbir parca",
+    title: "Hiçbir parça",
     accent: "kaybolmaz",
-    body: "Yasadiklariniz yok olmaz. Terapide her parca ozenle gorulur, adlandirilir.",
+    body: "Yaşadıklarınız yok olmaz. Terapide her parça özenle görülür, adlandırılır.",
   },
   {
-    title: "Onarim ozenle,",
-    accent: "altinla yapilir",
-    body: "EMDR ve travma odakli calisma, parcalari tasinabilir bir butune donusturur.",
+    title: "Onarım özenle,",
+    accent: "altınla yapılır",
+    body: "EMDR ve travma odaklı çalışma, parçaları taşınabilir bir bütüne dönüştürür.",
   },
   {
-    title: "Izleriniz",
-    accent: "degeriniz olur",
-    body: "Amac izleri silmek degil; onlari hayatinizin anlatilabilir bir parcasi kilmak.",
+    title: "İzleriniz",
+    accent: "değeriniz olur",
+    body: "Amaç izleri silmek değil; onları hayatınızın anlatılabilir bir parçası kılmak.",
   },
   {
-    title: "Onarima birlikte",
-    accent: "baslayalim",
+    title: "Onarıma birlikte",
+    accent: "başlayalım",
     body: "",
   },
 ] as const;
@@ -56,7 +56,7 @@ function phaseFor(p: number) {
   return journeyPhases.length - 1;
 }
 
-/* -- Onarim ritueli - catlak altinla dolar -------------------------------- */
+/* -- Onarım ritüeli - çatlak altınla dolar -------------------------------- */
 function RepairRitual() {
   const [word, setWord] = useState("");
   const [repaired, setRepaired] = useState(false);
@@ -98,10 +98,10 @@ function RepairRitual() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <p data-reveal className="text-[11px] tracking-[0.3em]" style={{ color: KIN.gold }}>
-            KUCUK BIR RITUEL
+            KÜÇÜK BİR RİTÜEL
           </p>
           <h2 data-reveal className="mt-4 text-4xl sm:text-5xl md:text-6xl leading-[0.95]">
-            Kirik hissettiren seye{" "}
+            Kırık hissettiren şeye{" "}
             <span className="italic" style={{ color: KIN.gold }}>
               bir ad verin
             </span>
@@ -138,14 +138,14 @@ function RepairRitual() {
             {!repaired ? (
               <form onSubmit={repair} className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                 <label htmlFor="kin-ritual" className="sr-only">
-                  Kirik hissettiren sey
+                  Kırık hissettiren şey
                 </label>
                 <input
                   id="kin-ritual"
                   value={word}
                   onChange={(e) => setWord(e.target.value)}
                   maxLength={30}
-                  placeholder="tek kelime yeter..."
+                  placeholder="tek kelime yeter\u2026"
                   className="w-full max-w-xs px-4 py-3 text-center text-sm outline-none transition-shadow focus:shadow-[0_0_0_2px_rgba(176,138,46,0.35)]"
                   style={{
                     background: KIN.bone,
@@ -165,7 +165,7 @@ function RepairRitual() {
             ) : (
               <div className="mt-8">
                 <p className="text-sm leading-relaxed" style={{ color: KIN.muted }}>
-                  Catlak hala orada - ama artik isigi tutuyor. Terapide yaptigimiz
+                  Çatlak hâlâ orada - ama artık ışığı tutuyor. Terapide yaptığımız
                   tam olarak bu.
                 </p>
                 <Link
@@ -173,12 +173,12 @@ function RepairRitual() {
                   className="mt-5 inline-block border-b pb-0.5 text-xs tracking-[0.2em]"
                   style={{ color: KIN.gold, borderColor: `${KIN.gold}66` }}
                 >
-                  ILK GORUSMEYI PLANLAYIN
+                  İLK GÖRÜŞMEYİ PLANLAYIN
                 </Link>
               </div>
             )}
             <p className="mt-6 text-[11px]" style={{ color: `${KIN.muted}cc` }}>
-              Yazdiklariniz hicbir yere gonderilmez, kaydedilmez.
+              Yazdıklarınız hiçbir yere gönderilmez, kaydedilmez.
             </p>
           </div>
         </div>
@@ -240,12 +240,12 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
       <GoldVein />
       <KintsugiHeader siteName={c.site.name.toUpperCase()} />
 
-      {/* -- Pinned onarim yolculugu ----------------------------------------- */}
-      <section ref={wrapperRef} className="relative" style={{ height: "420vh" }} aria-label="Onarim yolculugu">
+      {/* -- Pinned onarım yolculuğu ----------------------------------------- */}
+      <section ref={wrapperRef} className="relative" style={{ height: "420vh" }} aria-label="Onarım yolculuğu">
         <div ref={pinRef} className="relative h-screen w-full overflow-hidden">
           <LazyKintsugiScene progressRef={progressRef} />
 
-          {/* Marka cipi */}
+          {/* Marka çipi */}
           <div className="pointer-events-none absolute left-6 top-24 z-10 lg:left-10">
             <p
               className="border px-4 py-2 text-[11px] tracking-[0.24em]"
@@ -257,7 +257,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
                 backdropFilter: "blur(6px)",
               }}
             >
-              {c.home.badge} - ONARIM SANATI
+              {c.home.badge} · ONARIM SANATI
             </p>
           </div>
 
@@ -305,7 +305,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
                         className="border px-6 py-3 text-xs tracking-[0.2em] transition-colors hover:border-current"
                         style={{ borderColor: `${KIN.gold}66`, color: KIN.gold, borderRadius: 2 }}
                       >
-                        YAKLASIMI TANIYIN
+                        YAKLAŞIMI TANIYIN
                       </Link>
                     </div>
                   )}
@@ -314,7 +314,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
             </div>
           ))}
 
-          {/* Faz gostergesi - roma rakamlari */}
+          {/* Faz göstergesi - roma rakamları */}
           <div className="absolute right-6 top-1/2 z-10 hidden -translate-y-1/2 flex-col items-center gap-3 lg:right-14 lg:flex">
             {roman.map((r, i) => (
               <span
@@ -330,7 +330,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
             ))}
           </div>
 
-          {/* Kaydir ipucu */}
+          {/* Kaydır ipucu */}
           <div
             className={`absolute bottom-5 left-1/2 z-10 -translate-x-1/2 transition-opacity duration-700 ${
               phaseIdx === 0 ? "opacity-70" : "opacity-0"
@@ -350,10 +350,10 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
         </div>
       </section>
 
-      {/* -- Onarim ritueli -------------------------------------------------- */}
+      {/* -- Onarım ritüeli -------------------------------------------------- */}
       <RepairRitual />
 
-      {/* -- Felsefe - uc ilke ----------------------------------------------- */}
+      {/* -- Felsefe - üç ilke ----------------------------------------------- */}
       <section className="relative z-[1] py-24" style={{ background: `${KIN.paper}99` }}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
@@ -363,7 +363,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
             <h2 data-reveal className="mt-4 text-4xl sm:text-5xl md:text-6xl leading-[0.95]">
               Wabi-sabi: kusurda{" "}
               <span className="italic" style={{ color: KIN.gold }}>
-                guzellik
+                güzellik
               </span>
             </h2>
           </div>
@@ -371,15 +371,15 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
             {[
               {
                 t: "Kabul",
-                d: "Kirilma inkar edilmez. Olan, oldugu gibi gorulur - yargisiz ve acele etmeden.",
+                d: "Kırılma inkâr edilmez. Olan, olduğu gibi görülür - yargısız ve acele etmeden.",
               },
               {
-                t: "Onarim",
-                d: "Parcalar ozenle, bilimsel yontemle birlestirilir. Altin, emegin kendisidir.",
+                t: "Onarım",
+                d: "Parçalar özenle, bilimsel yöntemle birleştirilir. Altın, emeğin kendisidir.",
               },
               {
-                t: "Deger",
-                d: "Izler gizlenmez. Onarilmis bir hayat, hic kirilmamis gorunen bir hayattan daha sahicidir.",
+                t: "Değer",
+                d: "İzler gizlenmez. Onarılmış bir hayat, hiç kırılmamış görünen bir hayattan daha sahicidir.",
               },
             ].map((p, i) => (
               <div key={p.t} data-reveal className="text-center">
@@ -399,17 +399,17 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
         </div>
       </section>
 
-      {/* -- Hizmet ozeti ---------------------------------------------------- */}
+      {/* -- Hizmet özeti ---------------------------------------------------- */}
       <section className="relative z-[1] py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
             <p data-reveal className="text-center text-[11px] tracking-[0.3em]" style={{ color: KIN.gold }}>
-              CALISMA ALANLARI
+              ÇALIŞMA ALANLARI
             </p>
             <h2 data-reveal className="mt-4 text-center text-4xl sm:text-5xl">
-              Atolyede neler{" "}
+              Atölyede neler{" "}
               <span className="italic" style={{ color: KIN.gold }}>
-                yapilir
+                yapılır
               </span>
             </h2>
             <div className="mt-12">
@@ -440,7 +440,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
         </div>
       </section>
 
-      {/* -- Alinti ---------------------------------------------------------- */}
+      {/* -- Alıntı ---------------------------------------------------------- */}
       <section className="relative z-[1] py-24" style={{ background: `${KIN.paper}99` }}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <blockquote data-reveal className="mx-auto max-w-2xl text-center">
@@ -454,7 +454,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
         </div>
       </section>
 
-      {/* -- Kapanis CTA ----------------------------------------------------- */}
+      {/* -- Kapanış CTA ----------------------------------------------------- */}
       <section className="relative z-[1] py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div
@@ -466,14 +466,14 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
               <SealMark size={40} />
             </div>
             <h2 className="text-4xl sm:text-5xl md:text-6xl leading-[0.95]">
-              Ilk gorusme, ilk{" "}
+              İlk görüşme, ilk{" "}
               <span className="italic" style={{ color: KIN.gold }}>
-                altin damar
+                altın damar
               </span>
             </h2>
             <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed" style={{ color: KIN.muted }}>
-              Tanisma gorusmesinde yalnizca dinlerim: neyin kirildigini, neyin
-              korundugunu ve nereden baslayacagimizi birlikte goruruz.
+              Tanışma görüşmesinde yalnızca dinlerim: neyin kırıldığını, neyin
+              korunduğunu ve nereden başlayacağımızı birlikte görürüz.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Link
@@ -497,7 +497,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
 
       <footer className="relative z-[1] border-t py-10 text-center" style={{ borderColor: `${KIN.ink}14` }}>
         <p className="text-xs tracking-[0.14em]" style={{ color: KIN.muted }}>
-          KINTSUGI - kiriklar saklanmaz, altinla anlatilir
+          KINTSUGI · kırıklar saklanmaz, altınla anlatılır
         </p>
       </footer>
     </div>

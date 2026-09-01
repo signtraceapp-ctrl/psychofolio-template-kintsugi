@@ -36,16 +36,16 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
 
   return (
     <PageShell
-      kicker="Iletisim"
-      title="Ilk adimi"
-      accent="birlikte atalim"
+      kicker="İletişim"
+      title="İlk adımı"
+      accent="birlikte atalım"
       scopeRef={scopeRef}
       siteName={c.site.name.toUpperCase()}
     >
       <section className="relative z-[1] pb-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto grid max-w-4xl gap-10 lg:grid-cols-[1.2fr_0.8fr]">
-            {/* Form - kagit */}
+            {/* Form - kağıt */}
             <div
               data-reveal
               className="relative border p-8 shadow-[0_18px_50px_rgba(46,40,34,0.08)] sm:p-10"
@@ -85,7 +85,7 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
                   </div>
                   <div>
                     <label htmlFor="kin-note" className="mb-1.5 block text-[11px] tracking-[0.2em]" style={{ color: KIN.muted }}>
-                      {c.contact.formMessage.toUpperCase()} (ISTEGE BAGLI)
+                      {c.contact.formMessage.toUpperCase()} (İSTEĞE BAĞLI)
                     </label>
                     <textarea
                       id="kin-note"
@@ -110,12 +110,12 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
                     <SealMark size={64} />
                   </div>
                   <h3 className="mt-6 text-3xl">
-                    Tesekkurler{name ? `, ${name.split(" ")[0]}` : ""}
+                    Teşekkürler{name ? `, ${name.split(" ")[0]}` : ""}
                   </h3>
                   <p className="mt-3 max-w-sm text-sm leading-relaxed" style={{ color: KIN.muted }}>
-                    Mesajiniz muhurlendi. En gec bir is gunu icinde{" "}
-                    {email ? <span style={{ color: KIN.gold }}>{email}</span> : "e-postaniza"}{" "}
-                    adresinden donus yapilir.
+                    Mesajınız mühürlendi. En geç bir iş günü içinde{" "}
+                    {email ? <span style={{ color: KIN.gold }}>{email}</span> : "e-postanıza"}{" "}
+                    adresinden dönüş yapılır.
                   </p>
                 </div>
               )}
@@ -124,8 +124,10 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
             {/* Bilgiler */}
             <div data-reveal className="space-y-8 lg:pt-4">
               {[
-                { k: "E-POSTA", v: c.site.email },
+                { k: "SEANS", v: c.site.hours },
                 { k: "KONUM", v: c.site.address },
+                { k: "E-POSTA", v: c.site.email },
+                { k: "TELEFON", v: c.site.phone },
               ].map((row) => (
                 <div key={row.k} className="border-b pb-5" style={{ borderColor: `${KIN.ink}14` }}>
                   <p className="text-[11px] tracking-[0.3em]" style={{ color: KIN.gold }}>
@@ -135,8 +137,8 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
                 </div>
               ))}
               <p className="text-xs leading-relaxed" style={{ color: KIN.muted }}>
-                Acil bir durumdaysaniz lutfen 112&apos;yi arayin ya da en yakin acil
-                servise basvurun; bu form acil destek kanali degildir.
+                Acil bir durumdaysanız lütfen 112&apos;yi arayın ya da en yakın acil
+                servise başvurun; bu form acil destek kanalı değildir.
               </p>
             </div>
           </div>

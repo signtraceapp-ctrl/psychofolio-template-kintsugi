@@ -12,24 +12,24 @@ if (typeof window !== "undefined") {
 
 const defaultSteps = [
   {
-    stage: "01 - Kirilma",
-    title: "Gormek ve adlandirmak",
-    desc: "Ilk gorusmelerde yasananlarin haritasi cikarilir. Hicbir parca kucumsenmez, hicbiri zorla yerinden oynatilmaz.",
+    stage: "01 · Kırılma",
+    title: "Görmek ve adlandırmak",
+    desc: "İlk görüşmelerde yaşananların haritası çıkarılır. Hiçbir parça küçümsenmez, hiçbiri zorla yerinden oynatılmaz.",
   },
   {
-    stage: "02 - Temizleme",
-    title: "Guvenligi kurmak",
-    desc: "Isleme baslamadan once kaynaklar guclendirilir: duzenleme becerileri, guvenli yer, beden farkindiligi.",
+    stage: "02 · Temizleme",
+    title: "Güvenliği kurmak",
+    desc: "İşleme başlamadan önce kaynaklar güçlendirilir: düzenleme becerileri, güvenli yer, beden farkındalığı.",
   },
   {
-    stage: "03 - Lake",
-    title: "Yeniden islemek",
-    desc: "EMDR ve travma odakli tekniklerle anilar, sinir sisteminin tasiyabilecegi bir bicimde yeniden islenir.",
+    stage: "03 · Lake",
+    title: "Yeniden işlemek",
+    desc: "EMDR ve travma odaklı tekniklerle anılar, sinir sisteminin taşıyabileceği bir biçimde yeniden işlenir.",
   },
   {
-    stage: "04 - Altin tozu",
-    title: "Anlami yerlestirmek",
-    desc: "Onarim gorunur kilinir: yasananlar, kimligin saklanacak degil tasinacak bir parcasi haline gelir.",
+    stage: "04 · Altın tozu",
+    title: "Anlamı yerleştirmek",
+    desc: "Onarım görünür kılınır: yaşananlar, kimliğin saklanacak değil taşınacak bir parçası haline gelir.",
   },
 ];
 
@@ -75,16 +75,16 @@ export function ApproachClient({ content: c }: { content: SiteContent }) {
 
   return (
     <PageShell
-      kicker="Yaklasim"
-      title="Onarim dort"
-      accent="asamada olur"
+      kicker="Yaklaşım"
+      title="Onarım dört"
+      accent="aşamada olur"
       scopeRef={scopeRef}
       siteName={c.site.name.toUpperCase()}
     >
       <section className="relative z-[1] pb-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto grid max-w-5xl gap-14 lg:grid-cols-2">
-            {/* Sol: sabit kase - catlaklar sirayla altinlanir */}
+            {/* Sol: sabit kase - çatlaklar sırayla altınlanır */}
             <div className="lg:sticky lg:top-28 lg:self-start">
               <div
                 className="border p-10"
@@ -118,12 +118,12 @@ export function ApproachClient({ content: c }: { content: SiteContent }) {
                   ))}
                 </svg>
                 <p className="mt-6 text-center text-xs tracking-[0.2em]" style={{ color: KIN.muted }}>
-                  KAYDIRDIKCA ONARIM ILERLER
+                  KAYDIRDIKÇA ONARIM İLERLER
                 </p>
               </div>
             </div>
 
-            {/* Sag: asamalar */}
+            {/* Sağ: aşamalar */}
             <div ref={stepsRef} className="space-y-16 lg:py-10">
               {steps.map((s) => (
                 <div key={s.stage} data-reveal>

@@ -1,142 +1,181 @@
 {
   "site": {
-    "name": "Ad Soyad",
-    "title": "Unvan",
-    "email": "iletisim@siteniz.com",
-    "address": "Sehir, Turkiye",
-    "copyright": "Tum haklari saklidir."
+    "name": "Uzm. Psk. Örnek Psikolog",
+    "title": "Klinik Psikolog · Travma Terapisti",
+    "email": "merhaba@ornekpsikolog.com",
+    "phone": "+90 (216) 000 00 00",
+    "address": "Moda Cad. örnek No: 12, Kadıköy - İstanbul",
+    "hours": "Hafta içi 10:00-19:00 · Cmt 10:00-14:00",
+    "copyright": "Tüm hakları saklıdır."
   },
   "home": {
     "badge": "KINTSUGI",
-    "headline": "Kiriklar",
-    "headlineAccent": "altinla onarilir",
+    "headline": "Kırıklar",
+    "headlineAccent": "altınla onarılır",
     "headlineSuffix": ".",
-    "description": "Travma, yas ve kayip sureclerinde sizinle birlikte yuruyorum. Kirilmak zayiflik degil, onarim icin bir baslangiçtir.",
-    "cta": "Iletisime Gecin",
-    "cardTitle": "Onarim Sanati",
-    "cardSubtitle": "Travma Odakli Terapi",
-    "quote": "Yaralar, isigin girdigi yerlerdir.",
-    "quoteAuthor": "Rumi"
+    "description": "Travma, yas ve kayıp süreçlerinde sizinle birlikte yürüyorum. Kırılmak zayıflık değil, onarım için bir başlangıçtır.",
+    "cta": "İletişime Geçin",
+    "cardTitle": "Onarım Sanatı",
+    "cardSubtitle": "Travma Odaklı Terapi",
+    "quote": "Altınla onarılan kase, hiç kırılmamış olandan daha değerlidir.",
+    "quoteAuthor": "Geleneksel Kintsugi Öğretisi"
   },
   "services": [
     {
       "title": "Travma Terapisi",
-      "desc": "Tekil ve karmasik travma deneyimleri icin butuncul, kanita dayali terapi sureci. Guvenli bir alanda travmatik anilarla calisma.",
-      "duration": "50 dk",
-      "method": "Yuzyuze"
-    },
-    {
-      "title": "EMDR Terapisi",
-      "desc": "Goz hareketleriyle duyarsizlastirma ve yeniden isleme yontemiyle travmatik anilarin islenmes ve entegrasyonu.",
+      "desc": "Tek olay ya da süregelen travmatik yaşantılar için aşamalı, güvenlik temelli çalışma.",
       "duration": "60 dk",
-      "method": "Yuzyuze"
+      "method": "Aşamalı model"
     },
     {
-      "title": "Yas ve Kayip Danismanligi",
-      "desc": "Sevilen birinin kaybi, iliskisel kayiplar ve yasam gecislerindeki yas sureclerine eslik eden destek.",
-      "duration": "50 dk",
-      "method": "Yuzyuze / Cevrimici"
+      "title": "EMDR",
+      "desc": "Zorlayıcı anıların göz hareketleriyle duyarsızlaştırılıp yeniden işlenmesi.",
+      "duration": "60-90 dk",
+      "method": "Standart protokol"
     },
     {
-      "title": "Bireysel Psikoterapi",
-      "desc": "Kaygi, depresyon ve iliskisel zorluklar icin kabul ve karlilik terapisi (ACT) cercevesinde bireysel calisma.",
+      "title": "Yas Danışmanlığı",
+      "desc": "Kayıpla değişen hayatın yeniden örülmesi; karmaşık yas süreçlerinde eşlik.",
       "duration": "50 dk",
-      "method": "Yuzyuze / Cevrimici"
+      "method": "Anlam odaklı"
+    },
+    {
+      "title": "ACT ile Esneklik",
+      "desc": "Kabul ve kararlılık terapisiyle, acıyla mücadele yerine değerlere yönelme.",
+      "duration": "50 dk",
+      "method": "ACT matrisi"
+    },
+    {
+      "title": "Afet Sonrası Destek",
+      "desc": "Toplumsal ölçekli olaylar sonrası bireysel stabilizasyon ve psikoeğitim.",
+      "duration": "50 dk",
+      "method": "PFA + TF-CBT"
+    },
+    {
+      "title": "Çevrimiçi Seans",
+      "desc": "Şehir dışı ve yurt dışı danışanlar için güvenli video görüşme düzeni.",
+      "duration": "50 dk",
+      "method": "Tüm hizmetler"
     }
   ],
   "about": {
-    "title": "Hakkimda",
-    "intro": "Travma, yas ve kayip alaninda calisan bir klinik psikolog olarak, danisanlarimin iyilesme yolculuklarina eslik ediyorum.",
+    "title": "Hakkımda",
+    "intro": "Kintsugi ustası kırık bir kaseyi asla eskisi gibi yapmaya çalışmaz; onu, izleriyle birlikte daha değerli kılar. Travma terapisinde de amaç geçmişi silmek değil - yaşananları, taşınabilir ve anlamlı bir bütünün parçası haline getirmektir. Çalışma odamda bu dönüşüme tanıklık etmek, mesleğimin bana en büyük armağanıdır.",
     "credentials": [
       {
-        "year": "—",
-        "title": "Lisans Egitimi",
-        "detail": "Psikoloji alaninda lisans derecesi"
+        "year": "Temel",
+        "title": "Klinik psikoloji eğitimi",
+        "detail": "Psikoloji lisansı ve klinik psikoloji yüksek lisansı; travma alanına yönelen ilk süpervizyonlu vakalar."
       },
       {
-        "year": "—",
-        "title": "Yuksek Lisans",
-        "detail": "Klinik psikoloji alaninda uzmanlik"
+        "year": "Zanaat",
+        "title": "Travma odaklı uzmanlaşma",
+        "detail": "EMDR I-II düzey eğitimleri, somatik yaklaşımlar ve ACT; 9 yılda 3.200'ün üzerinde seans."
       },
       {
-        "year": "—",
-        "title": "EMDR Terapisi Egitimi",
-        "detail": "EMDR ileri duzey sertifika programi"
+        "year": "İncelik",
+        "title": "Yas ve kayıp çalışmaları",
+        "detail": "Karmaşık yas protokolleri üzerine ileri eğitim; hastane ve afet sahası deneyimi."
+      },
+      {
+        "year": "Aktarım",
+        "title": "Süpervizyon ve eğitmenlik",
+        "detail": "Genç klinisyenlere travma süpervizyonu; meslek içi eğitimlerde eğitmenlik."
       }
     ]
   },
   "approach": {
-    "title": "Terapi Yaklasimim",
-    "intro": "Her insanin icinde onarim kapasitesi vardir. Terapide amacim, bu dogal iyilesme gucunuzu yeniden harekete gecirmenize yardimci olmaktir.",
+    "title": "Terapi Yaklaşımım",
+    "intro": "Her insanın içinde onarım kapasitesi vardır. Terapide amacım, bu doğal iyileşme gücünüzü yeniden harekete geçirmenize yardımcı olmaktır.",
     "principles": [
       {
-        "title": "Guvenli Alan",
-        "desc": "Travma calismasi icin once guvenli ve istikrarli bir temel olusturuyoruz. Tempo her zaman sizin elinizdedir."
+        "title": "Görmek ve adlandırmak",
+        "desc": "İlk görüşmelerde yaşananların haritası çıkarılır. Hiçbir parça küçümsenmez, hiçbiri zorla yerinden oynatılmaz."
       },
       {
-        "title": "Butuncul Yaklasim",
-        "desc": "Travmayi sadece zihinsel degil, bedensel ve duygusal boyutlariyla da ele aliyorum."
+        "title": "Güvenliği kurmak",
+        "desc": "İşleme başlamadan önce kaynaklar güçlendirilir: düzenleme becerileri, güvenli yer, beden farkındalığı."
       },
       {
-        "title": "Kanita Dayali Yontemler",
-        "desc": "EMDR, travma odakli BDT ve ACT gibi bilimsel olarak etkinligi kanitlanmis yaklasimlari kullaniyorum."
+        "title": "Yeniden işlemek",
+        "desc": "EMDR ve travma odaklı tekniklerle anılar, sinir sisteminin taşıyabileceği bir biçimde yeniden işlenir."
       },
       {
-        "title": "Post-Travmatik Buyume",
-        "desc": "Travma sonrasi sadece iyilesme degil, buyume ve donusum de mumkundur. Kiriklar altin izlere donusebilir."
+        "title": "Anlamı yerleştirmek",
+        "desc": "Onarım görünür kılınır: yaşananlar, kimliğin saklanacak değil taşınacak bir parçası haline gelir."
       }
     ]
   },
   "articles": [
     {
-      "title": "Travma Nedir? Bedenin Hatirladiklari",
+      "title": "Travma sonrası büyüme bir mit mi?",
+      "category": "Travma",
+      "readTime": "7 dk",
+      "date": ""
+    },
+    {
+      "title": "EMDR seansında beyinde ne olur?",
+      "category": "EMDR",
+      "readTime": "6 dk",
+      "date": ""
+    },
+    {
+      "title": "Yasın takvimi yoktur",
+      "category": "Yas",
+      "readTime": "5 dk",
+      "date": ""
+    },
+    {
+      "title": "Kırılganlık kabulle güce dönüşür",
+      "category": "Dayanıklılık",
+      "readTime": "8 dk",
+      "date": ""
+    },
+    {
+      "title": "Beden unutmaz: somatik izler",
       "category": "Travma",
       "readTime": "9 dk",
       "date": ""
     },
     {
-      "title": "EMDR Terapisi: Nasil Calisir?",
-      "category": "EMDR",
-      "readTime": "7 dk",
-      "date": ""
-    },
-    {
-      "title": "Yas Sureci ve Iyilesmenin Asmalari",
+      "title": "Çocuklara kaybı anlatmak",
       "category": "Yas",
-      "readTime": "8 dk",
-      "date": ""
-    },
-    {
-      "title": "Travma Sonrasi Buyume: Kiriktan Altina",
-      "category": "Buyume",
       "readTime": "6 dk",
       "date": ""
     }
   ],
   "faq": [
     {
-      "q": "Travma terapisine hazir olup olmadigimi nasil anlarim?",
-      "a": "Hazir olma hissi her zaman net olmayabilir. Ilk gorusmede birlikte degerlendirir ve size uygun bir tempo belirleririz."
+      "q": "Travma terapisi geçmişi yeniden yaşamak zorunda mıyım demek?",
+      "a": "Hayır. Modern travma terapisi 'yeniden yaşatmaz'; sinir sisteminizin taşıyabileceği dozda, güvenlik önceliğiyle çalışır. Hazır olmadığınız hiçbir kapı zorlanmaz."
     },
     {
-      "q": "EMDR terapisi agriili bir surec mi?",
-      "a": "EMDR surecinde gecici olarak rahatsiz edici anilarla temas edilir, ancak terapist guvenli bir sekilde sizi yonlendirir. Cogu danisan sureci tolere edilebilir bulur."
+      "q": "EMDR herkese uygun mu?",
+      "a": "Çoğu yetişkin için uygundur; ancak ilk görüşmelerde ayrıntılı bir değerlendirme yapılır. Bazı durumlarda önce stabilizasyon çalışması gerekir - kaseyi yapıştırmadan önce parçaların temizlenmesi gibi."
     },
     {
-      "q": "Yas sureci ne kadar surer?",
-      "a": "Yas surecinin belirli bir zamani yoktur. Herkesin yasi kendine ozgudur. Terapi, bu sureci saglikli yollarla yasamaniza yardimci olur."
+      "q": "Kaç seans sürer?",
+      "a": "Tek olay travmalarında bazen 6-12 seans yeterli olabilir; karmaşık ve süregelen yaşantılarda süreç daha uzundur. İlk değerlendirmede size dürüst bir çerçeve sunarım."
     },
     {
-      "q": "Seans ucreti ne kadar?",
-      "a": "Seans bilgisi icin iletisime gecin."
+      "q": "Yas için terapiye gelmek 'zayıflık' mı?",
+      "a": "Yas bir hastalık değil, sevginin devamıdır. Terapi, yası ortadan kaldırmaz; taşınabilir kılar. Destek istemek zayıflık değil, onarım kararıdır."
+    },
+    {
+      "q": "Seanslar gizli mi?",
+      "a": "Evet. Paylaştıklarınız yasal zorunluluk halleri dışında kesinlikle gizlidir; kayıt tutma ve saklama ilkeleri ilk seansta yazılı olarak paylaşılır."
+    },
+    {
+      "q": "Çevrimiçi seans travma çalışmasında işe yarar mı?",
+      "a": "Araştırmalar çevrimiçi EMDR ve travma terapisinin yüz yüze çalışmayla karşılaştırılabilir sonuçlar verdiğini gösteriyor. Güvenli ve kesintisiz bir ortam kurmanız için birlikte hazırlık yaparız."
     }
   ],
   "contact": {
-    "title": "Iletisim",
-    "intro": "Iyilesme yolculugunuzda yanimda olmami isterseniz, ilk adimi birlikte atabiliriz.",
-    "formName": "Adiniz",
+    "title": "İletişim",
+    "intro": "Birkaç satır yeterli. Yazdıklarınız yalnızca ilk görüşmeyi planlamak için kullanılır ve gizli tutulur.",
+    "formName": "Adınız",
     "formEmail": "E-posta",
-    "formMessage": "Mesajiniz",
-    "formSubmit": "Gonder"
+    "formMessage": "Paylaşmak istedikleriniz",
+    "formSubmit": "Gönder"
   }
 }

@@ -20,12 +20,12 @@ const KIN = {
 } as const;
 
 const navLinks = [
-  { num: "I", label: "Hakkinda", path: "/hakkimda" },
+  { num: "I", label: "Hakkında", path: "/hakkimda" },
   { num: "II", label: "Hizmetler", path: "/hizmetler" },
-  { num: "III", label: "Yaklasim", path: "/yaklasim" },
-  { num: "IV", label: "Yazilar", path: "/yazilar" },
+  { num: "III", label: "Yaklaşım", path: "/yaklasim" },
+  { num: "IV", label: "Yazılar", path: "/yazilar" },
   { num: "V", label: "SSS", path: "/sss" },
-  { num: "VI", label: "Iletisim", path: "/iletisim" },
+  { num: "VI", label: "İletişim", path: "/iletisim" },
 ] as const;
 
 /* -- Vermilyon muhur ------------------------------------------------------ */
@@ -86,7 +86,7 @@ export function KintsugiHeader({ siteName = "KINTSUGI" }: KintsugiHeaderProps) {
             </Link>
             <button
               onClick={() => setMenuOpen(true)}
-              aria-label="Menuyu ac"
+              aria-label="Menüyü aç"
               aria-expanded={menuOpen}
               className="transition-transform duration-300 hover:scale-105"
             >
@@ -110,7 +110,7 @@ export function KintsugiHeader({ siteName = "KINTSUGI" }: KintsugiHeaderProps) {
       >
         <button
           onClick={() => setMenuOpen(false)}
-          aria-label="Menuyu kapat"
+          aria-label="Menüyü kapat"
           className="absolute right-6 top-6 flex h-11 w-11 items-center justify-center rounded-[3px] border transition-colors lg:right-10"
           style={{ borderColor: `${KIN.ink}33`, color: KIN.ink }}
         >
@@ -122,7 +122,7 @@ export function KintsugiHeader({ siteName = "KINTSUGI" }: KintsugiHeaderProps) {
 
         <nav
           className="flex h-full flex-col items-center justify-center gap-1"
-          aria-label="Site menusu"
+          aria-label="Site menüsü"
         >
           {[{ num: "\u25CB", label: "Ana Sayfa", path: "/" }, ...navLinks].map((l, i) => (
             <Link

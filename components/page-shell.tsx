@@ -170,7 +170,7 @@ export function PageShell({
         style={{ borderColor: `${KIN.ink}14` }}
       >
         <p className="text-xs tracking-[0.14em]" style={{ color: KIN.muted }}>
-          KINTSUGI - kiriklar saklanmaz, altinla anlatilir
+          KINTSUGI · kırıklar saklanmaz, altınla anlatılır
         </p>
       </footer>
     </div>

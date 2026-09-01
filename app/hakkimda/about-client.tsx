@@ -6,23 +6,23 @@ import type { SiteContent } from "@/lib/content";
 const defaultTimeline = [
   {
     era: "Temel",
-    title: "Klinik psikoloji egitimi",
-    desc: "Psikoloji lisansi ve klinik psikoloji yuksek lisansi; travma alanina yonelen ilk supervizyonlu vakalar.",
+    title: "Klinik psikoloji eğitimi",
+    desc: "Psikoloji lisansı ve klinik psikoloji yüksek lisansı; travma alanına yönelen ilk süpervizyonlu vakalar.",
   },
   {
     era: "Zanaat",
-    title: "Travma odakli uzmanlasma",
-    desc: "EMDR I-II duzey egitimleri, somatik yaklasimlar ve ACT; 9 yilda 3.200'un uzerinde seans.",
+    title: "Travma odaklı uzmanlaşma",
+    desc: "EMDR I-II düzey eğitimleri, somatik yaklaşımlar ve ACT; 9 yılda 3.200'ün üzerinde seans.",
   },
   {
-    era: "Incelik",
-    title: "Yas ve kayip calismalari",
-    desc: "Karmasik yas protokolleri uzerine ileri egitim; hastane ve afet sahasi deneyimi.",
+    era: "İncelik",
+    title: "Yas ve kayıp çalışmaları",
+    desc: "Karmaşık yas protokolleri üzerine ileri eğitim; hastane ve afet sahası deneyimi.",
   },
   {
-    era: "Aktarim",
-    title: "Supervizyon ve egitmenlik",
-    desc: "Genc klinisyenlere travma supervizyonu; meslek ici egitimlerde egitmenlik.",
+    era: "Aktarım",
+    title: "Süpervizyon ve eğitmenlik",
+    desc: "Genç klinisyenlere travma süpervizyonu; meslek içi eğitimlerde eğitmenlik.",
   },
 ];
 
@@ -40,15 +40,15 @@ export function AboutClient({ content: c }: { content: SiteContent }) {
 
   return (
     <PageShell
-      kicker="Hakkinda"
-      title="Onarimi ogrenmek bir"
-      accent="omur surer"
+      kicker="Hakkında"
+      title="Onarımı öğrenmek bir"
+      accent="ömür sürer"
       scopeRef={scopeRef}
       siteName={c.site.name.toUpperCase()}
     >
       <section className="relative z-[1] pb-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Tanitim karti - washi kagidi + muhur */}
+          {/* Tanıtım kartı - washi kağıdı + mühür */}
           <div
             data-reveal
             className="relative mx-auto max-w-2xl border p-10 shadow-[0_18px_50px_rgba(46,40,34,0.08)]"
@@ -66,7 +66,7 @@ export function AboutClient({ content: c }: { content: SiteContent }) {
             </p>
           </div>
 
-          {/* Zaman cizelgesi - ortadan inen altin catlak */}
+          {/* Zaman çizelgesi - ortadan inen altın çatlak */}
           <div className="relative mx-auto mt-20 max-w-3xl">
             <div
               className="absolute left-4 top-0 h-full w-px md:left-1/2"

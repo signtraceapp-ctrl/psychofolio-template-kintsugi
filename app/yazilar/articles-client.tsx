@@ -9,18 +9,18 @@ export function ArticlesClient({ content: c }: { content: SiteContent }) {
 
   // Derive categories from content
   const allCategories = Array.from(new Set(c.articles.map((a) => a.category)));
-  const categories = ["Tumu", ...allCategories] as const;
+  const categories = ["Tümü", ...allCategories] as const;
 
-  const [cat, setCat] = useState("Tumu");
-  const filtered = c.articles.filter((a) => cat === "Tumu" || a.category === cat);
+  const [cat, setCat] = useState("Tümü");
+  const filtered = c.articles.filter((a) => cat === "Tümü" || a.category === cat);
 
   // Slight tilt for washi card effect
   const tilts = ["-0.6deg", "0.5deg", "-0.4deg", "0.6deg", "0.4deg", "-0.5deg"];
 
   return (
     <PageShell
-      kicker="Yazilar"
-      title="Murekkeple tutulmus"
+      kicker="Yazılar"
+      title="Mürekkeple tutulmuş"
       accent="notlar"
       scopeRef={scopeRef}
       siteName={c.site.name.toUpperCase()}
@@ -58,14 +58,14 @@ export function ArticlesClient({ content: c }: { content: SiteContent }) {
                   rotate: tilts[i % tilts.length],
                 }}
               >
-                {/* altin kose kivrimi */}
+                {/* altın köşe kıvrımı */}
                 <span
                   className="absolute right-0 top-0 h-0 w-0 border-l-[22px] border-t-[22px] border-l-transparent"
                   style={{ borderTopColor: `${KIN.gold}59` }}
                   aria-hidden="true"
                 />
                 <p className="text-[10px] tracking-[0.3em]" style={{ color: KIN.gold }}>
-                  {a.category.toUpperCase()} - {a.readTime}
+                  {a.category.toUpperCase()} · {a.readTime}
                 </p>
                 <h3 className="mt-3 text-2xl leading-snug">{a.title}</h3>
                 <span

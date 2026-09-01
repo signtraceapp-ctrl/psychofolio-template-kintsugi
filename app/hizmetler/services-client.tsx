@@ -3,7 +3,7 @@
 import { PageShell, useKintsugiReveal, KIN } from "@/components/page-shell";
 import type { SiteContent } from "@/lib/content";
 
-/* -- Kase ikonu - hover'da catlagi altinlanir ----------------------------- */
+/* -- Kase ikonu - hover'da çatlağı altınlanır ----------------------------- */
 function BowlIcon({ size = 64 }: { size?: number }) {
   return (
     <svg width={size} height={size * 0.72} viewBox="0 0 64 46" fill="none" aria-hidden="true">
@@ -39,8 +39,8 @@ export function ServicesClient({ content: c }: { content: SiteContent }) {
   return (
     <PageShell
       kicker="Hizmetler"
-      title="Her kirik, kendi"
-      accent="onarimini ister"
+      title="Her kırık, kendi"
+      accent="onarımını ister"
       scopeRef={scopeRef}
       siteName={c.site.name.toUpperCase()}
     >
@@ -81,8 +81,8 @@ export function ServicesClient({ content: c }: { content: SiteContent }) {
             className="mx-auto mt-14 max-w-xl text-center text-sm leading-relaxed"
             style={{ color: KIN.muted }}
           >
-            Hangi calismanin size uygun oldugundan emin degilseniz, ilk gorusmede
-            birlikte karar veririz - kase raftan birlikte secilir.
+            Hangi çalışmanın size uygun olduğundan emin değilseniz, ilk görüşmede
+            birlikte karar veririz - kase raftan birlikte seçilir.
           </p>
         </div>
       </section>

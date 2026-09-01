@@ -14,7 +14,7 @@ export function FaqClient({ content: c }: { content: SiteContent }) {
     <PageShell
       kicker="SSS"
       title="Sormaktan"
-      accent="cekinmeyin"
+      accent="çekinmeyin"
       scopeRef={scopeRef}
       siteName={c.site.name.toUpperCase()}
     >
