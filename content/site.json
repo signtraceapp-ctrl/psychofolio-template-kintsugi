@@ -1,0 +1,86 @@
+{
+  "site": {
+    "name": "Uzm. Psk. Deniz Ornek",
+    "title": "Uzman Klinik Psikolog",
+    "email": "ornek@psychofolio.com",
+    "address": "Istanbul, Turkiye",
+    "copyright": "Tum haklari saklidir."
+  },
+  "home": {
+    "badge": "KINTSUGI",
+    "headline": "Kiriklar",
+    "headlineAccent": "altinla onarilir",
+    "headlineSuffix": ".",
+    "description": "Travma, yas ve kayip sureclerinde sizinle birlikte yuruyorum. Kirilmak zayiflik degil, onarim icin bir baslangiçtir.",
+    "cta": "Iletisime Gecin",
+    "cardTitle": "Onarim Sanati",
+    "cardSubtitle": "Travma Odakli Terapi",
+    "quote": "Yaralar, isigin girdigi yerlerdir.",
+    "quoteAuthor": "Rumi"
+  },
+  "services": [
+    {
+      "title": "Travma Terapisi",
+      "desc": "Tekil ve karmasik travma deneyimleri icin butuncul, kanita dayali terapi sureci. Guvenli bir alanda travmatik anilarla calisma.",
+      "duration": "50 dk",
+      "method": "Yuzyuze"
+    },
+    {
+      "title": "EMDR Terapisi",
+      "desc": "Goz hareketleriyle duyarsizlastirma ve yeniden isleme yontemiyle travmatik anilarin islenmes ve entegrasyonu.",
+      "duration": "60 dk",
+      "method": "Yuzyuze"
+    },
+    {
+      "title": "Yas ve Kayip Danismanligi",
+      "desc": "Sevilen birinin kaybi, iliskisel kayiplar ve yasam gecislerindeki yas sureclerine eslik eden destek.",
+      "duration": "50 dk",
+      "method": "Yuzyuze / Cevrimici"
+    },
+    {
+      "title": "Bireysel Psikoterapi",
+      "desc": "Kaygi, depresyon ve iliskisel zorluklar icin kabul ve karlilik terapisi (ACT) cercevesinde bireysel calisma.",
+      "duration": "50 dk",
+      "method": "Yuzyuze / Cevrimici"
+    }
+  ],
+  "about": {
+    "title": "Hakkimda",
+    "intro": "Travma, yas ve kayip alaninda calisan bir klinik psikolog olarak, danisanlarimin iyilesme yolculuklarina eslik ediyorum.",
+    "credentials": [
+      { "year": "\u2014", "title": "Lisans Egitimi", "detail": "Psikoloji alaninda lisans derecesi" },
+      { "year": "\u2014", "title": "Yuksek Lisans", "detail": "Klinik psikoloji alaninda uzmanlik" },
+      { "year": "\u2014", "title": "EMDR Terapisi Egitimi", "detail": "EMDR ileri duzey sertifika programi" }
+    ]
+  },
+  "approach": {
+    "title": "Terapi Yaklasimim",
+    "intro": "Her insanin icinde onarim kapasitesi vardir. Terapide amacim, bu dogal iyilesme gucunuzu yeniden harekete gecirmenize yardimci olmaktir.",
+    "principles": [
+      { "title": "Guvenli Alan", "desc": "Travma calismasi icin once guvenli ve istikrarli bir temel olusturuyoruz. Tempo her zaman sizin elinizdedir." },
+      { "title": "Butuncul Yaklasim", "desc": "Travmayi sadece zihinsel degil, bedensel ve duygusal boyutlariyla da ele aliyorum." },
+      { "title": "Kanita Dayali Yontemler", "desc": "EMDR, travma odakli BDT ve ACT gibi bilimsel olarak etkinligi kanitlanmis yaklasimlari kullaniyorum." },
+      { "title": "Post-Travmatik Buyume", "desc": "Travma sonrasi sadece iyilesme degil, buyume ve donusum de mumkundur. Kiriklar altin izlere donusebilir." }
+    ]
+  },
+  "articles": [
+    { "title": "Travma Nedir? Bedenin Hatirladiklari", "category": "Travma", "readTime": "9 dk", "date": "Ornek tarih" },
+    { "title": "EMDR Terapisi: Nasil Calisir?", "category": "EMDR", "readTime": "7 dk", "date": "Ornek tarih" },
+    { "title": "Yas Sureci ve Iyilesmenin Asmalari", "category": "Yas", "readTime": "8 dk", "date": "Ornek tarih" },
+    { "title": "Travma Sonrasi Buyume: Kiriktan Altina", "category": "Buyume", "readTime": "6 dk", "date": "Ornek tarih" }
+  ],
+  "faq": [
+    { "q": "Travma terapisine hazir olup olmadigimi nasil anlarim?", "a": "Hazir olma hissi her zaman net olmayabilir. Ilk gorusmede birlikte degerlendirir ve size uygun bir tempo belirleririz." },
+    { "q": "EMDR terapisi agriili bir surec mi?", "a": "EMDR surecinde gecici olarak rahatsiz edici anilarla temas edilir, ancak terapist guvenli bir sekilde sizi yonlendirir. Cogu danisan sureci tolere edilebilir bulur." },
+    { "q": "Yas sureci ne kadar surer?", "a": "Yas surecinin belirli bir zamani yoktur. Herkesin yasi kendine ozgudur. Terapi, bu sureci saglikli yollarla yasamaniza yardimci olur." },
+    { "q": "Seans ucreti ne kadar?", "a": "Seans bilgisi icin iletisime gecin." }
+  ],
+  "contact": {
+    "title": "Iletisim",
+    "intro": "Iyilesme yolculugunuzda yanimda olmami isterseniz, ilk adimi birlikte atabiliriz.",
+    "formName": "Adiniz",
+    "formEmail": "E-posta",
+    "formMessage": "Mesajiniz",
+    "formSubmit": "Gonder"
+  }
+}
