@@ -23,9 +23,8 @@ const navLinks = [
   { num: "I", label: "Hakkında", path: "/hakkimda" },
   { num: "II", label: "Hizmetler", path: "/hizmetler" },
   { num: "III", label: "Yaklaşım", path: "/yaklasim" },
-  { num: "IV", label: "Yazılar", path: "/yazilar" },
-  { num: "V", label: "SSS", path: "/sss" },
-  { num: "VI", label: "İletişim", path: "/iletisim" },
+  { num: "IV", label: "SSS", path: "/sss" },
+  { num: "V", label: "İletişim", path: "/iletisim" },
 ] as const;
 
 /* -- Vermilyon muhur ------------------------------------------------------ */
