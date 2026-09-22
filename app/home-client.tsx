@@ -298,7 +298,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
                         className="px-6 py-3 text-xs tracking-[0.2em] text-white transition-opacity hover:opacity-90"
                         style={{ background: KIN.vermilion, borderRadius: 2 }}
                       >
-                        RANDEVU AL
+                        {(c.home.cta || "RANDEVU AL").toUpperCase()}
                       </Link>
                       <Link
                         href="/yaklasim"
@@ -481,7 +481,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
                 className="px-7 py-3.5 text-xs tracking-[0.2em] text-white transition-opacity hover:opacity-90"
                 style={{ background: KIN.vermilion, borderRadius: 2 }}
               >
-                RANDEVU AL
+                {(c.home.cta || "RANDEVU AL").toUpperCase()}
               </Link>
               <Link
                 href="/sss"
